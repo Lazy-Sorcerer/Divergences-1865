@@ -19,5 +19,9 @@
 		actor = CSA
 		receiver = USA
 	}
+}
 
+1865.5.26 = {
+	rem_attacker = USA
+	rem_defender = CSA
 }

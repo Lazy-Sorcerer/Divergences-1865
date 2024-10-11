@@ -19,5 +19,9 @@
 		actor = CHI
 		receiver = TPG
 	}
+}
 
+1864.10.25 = {
+	rem_attacker = TPG
+	rem_defender = CHI
 }
