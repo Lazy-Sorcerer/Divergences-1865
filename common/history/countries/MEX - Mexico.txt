@@ -68,15 +68,18 @@ oob = "MEX_oob.txt"
 	oob = "/1861/MEX_oob.txt"
 }
 1861.1.1 = {
+
+government = prussian_constitutionalism
+
 # Political reforms
 slavery = no_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+upper_house_composition = appointed
+vote_franschise = universal_weighted_voting
 public_meetings = yes_meeting
 press_rights = free_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = gerrymandering
 
 plurality = 60
 ruling_party = MEX_liberal
