@@ -1,5 +1,9 @@
+FRA = {
+	value = 125		#relation
+}
+
 leader = {
-	name = "Juan Álvarez"
+	name = "Juan ï¿½lvarez"
 	type = land
 	date="1836.1.1"
 	personality = skilled
@@ -8,7 +12,7 @@ leader = {
 }
 
 leader = {
-	name = "Miguel Mirámon"
+	name = "Miguel Mirï¿½mon"
 	type = land
 	date="1858.1.1"
 	personality = fanatic
@@ -17,7 +21,7 @@ leader = {
 }
 
 army = {
-	name = "Ejército de Ciudad de México"
+	name = "Ejï¿½rcito de Ciudad de Mï¿½xico"
 	location = 2172
 	regiment = {
 		name= "1.1. Division"
@@ -45,7 +49,7 @@ army = {
 }
 
 army = {
-	name = "Ejército del Norte"
+	name = "Ejï¿½rcito del Norte"
 	location = 2159
 	regiment = {
 		name= "1.2. Division"

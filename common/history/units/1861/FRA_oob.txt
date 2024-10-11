@@ -21,6 +21,12 @@ SWI = {
 	influence_value = 25
 }
 
+MEX = {
+	value = 125		#relation
+	level = 5		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 100
+}
+
 ITA = {
 	value = 125		#relation
 }
@@ -38,6 +44,8 @@ GXI = {
 	value = 75
 	influence_value = 25
 }
+
+
 
 #Leaders
 
@@ -69,7 +77,7 @@ leader = {
 }
 
 leader = {
-	name = "Frédéric Forey"
+	name = "Frï¿½dï¿½ric Forey"
 	date = 1848.1.1
 	type = land
 	personality = choleric
@@ -123,7 +131,7 @@ leader = {
 }
 
 leader = {
-	name = "Jurien de la Gravière"
+	name = "Jurien de la Graviï¿½re"
 	date = 1853.1.1
 	type = sea
 	personality = competent
@@ -177,7 +185,7 @@ leader = {
 }
 
 leader = {
-	name = "d’Aurelle de Paladines"
+	name = "dï¿½Aurelle de Paladines"
 	date = 1855.1.1
 	type = land
 	personality = indifferent
@@ -198,19 +206,19 @@ army = {
 	name = "I. Corps"
 	location = 420
 	regiment = {
-		name= "1.1ère  Division d'Infanterie"
+		name= "1.1ï¿½re  Division d'Infanterie"
 		type = infantry
 		home = 420
 	}
 
 	regiment = {
-		name= "2.1ère  Division d'Infanterie"
+		name= "2.1ï¿½re  Division d'Infanterie"
 		type = infantry
 		home = 421
 	}
 
 	regiment = {
-		name= "3.1ère  Division d'Infanterie"
+		name= "3.1ï¿½re  Division d'Infanterie"
 		type = infantry
 		home = 421
 	}
@@ -234,19 +242,19 @@ army = {
 	}
 
 	regiment = {
-		name= "1.3ème Division d'Infanterie"
+		name= "1.3ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 423
 	}
 
 	regiment = {
-		name= "2.3ème Division d'Infanterie"
+		name= "2.3ï¿½me Division d'Infanterie"
 		type = engineer
 		home = 418
 	}
 
 	regiment = {
-		name= "3.3ème Division d'Infanterie"
+		name= "3.3ï¿½me Division d'Infanterie"
 		type = artillery
 		home = 417
 	}
@@ -257,55 +265,55 @@ army = {
 	name = "II. Corps" #done
 	location = 404
 	regiment = {
-		name= "1.4ème Division d'Infanterie"
+		name= "1.4ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 404
 	}
 
 	regiment = {
-		name= "2.4ème Division d'Infanterie"
+		name= "2.4ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 404
 	}
 
 	regiment = {
-		name= "3.4ème Division d'Infanterie"
+		name= "3.4ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 404
 	}
 
 	regiment = {
-		name= "1.5ème Division d'Infanterie"
+		name= "1.5ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 405
 	}
 
 	regiment = {
-		name= "2.5ème Division d'Infanterie"
+		name= "2.5ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 405
 	}
 
 	regiment = {
-		name= "3.5ème Division d'Infanterie"
+		name= "3.5ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 405
 	}
 
 	regiment = {
-		name= "1.6ème Division d'Infanterie"
+		name= "1.6ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 403
 	}
 
 	regiment = {
-		name= "2.6ème Division d'Infanterie"
+		name= "2.6ï¿½me Division d'Infanterie"
 		type = engineer
 		home = 403
 	}
 
 	regiment = {
-		name= "3.6ème Division d'Infanterie"
+		name= "3.6ï¿½me Division d'Infanterie"
 		type = artillery
 		home = 403
 	}
@@ -316,19 +324,19 @@ army = {
 	name = "IV. Corps" #done
 	location = 749
 	regiment = {
-		name= "1.10ème Division d'Infanterie"
+		name= "1.10ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 400
 	}
 
 	regiment = {
-		name= "2.10ème Division d'Infanterie"
+		name= "2.10ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 400
 	}
 
 	regiment = {
-		name= "3.10ème Division d'Infanterie"
+		name= "3.10ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 400
 	}
@@ -339,49 +347,49 @@ army = {
 	name = "IX. Corps" #done
 	location = 433
 	regiment = {
-		name= "1.1ère Division de Chasseurs"
+		name= "1.1ï¿½re Division de Chasseurs"
 		type = infantry
 		home = 433
 	}
 
 	regiment = {
-		name= "2.1ère Division de Chasseurs"
+		name= "2.1ï¿½re Division de Chasseurs"
 		type = infantry
 		home = 432
 	}
 
 	regiment = {
-		name= "3.1ère Division de Chasseurs"
+		name= "3.1ï¿½re Division de Chasseurs"
 		type = infantry
 		home = 414
 	}
 
 	regiment = {
-		name= "4.1ère Division de Chasseurs"
+		name= "4.1ï¿½re Division de Chasseurs"
 		type = engineer
 		home = 411
 	}
 
 	regiment = {
-		name= "1.2ème Division de Chasseurs"
+		name= "1.2ï¿½me Division de Chasseurs"
 		type = infantry
 		home = 428
 	}
 
 	regiment = {
-		name= "2.2ème Division de Chasseurs"
+		name= "2.2ï¿½me Division de Chasseurs"
 		type = infantry
 		home = 431
 	}
 
 	regiment = {
-		name= "3.2ème Division de Chasseurs"
+		name= "3.2ï¿½me Division de Chasseurs"
 		type = infantry
 		home = 434
 	}
 
 	regiment = {
-		name= "4.2ème Division de Chasseurs"
+		name= "4.2ï¿½me Division de Chasseurs"
 		type = engineer
 		home = 439
 	}
@@ -392,55 +400,55 @@ army = {
 	name = "V. Corps"
 	location = 409
 	regiment = {
-		name= "1.13ème Division d'Infanterie"
+		name= "1.13ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 409
 	}
 
 	regiment = {
-		name= "2.13ème Division d'Infanterie"
+		name= "2.13ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 409
 	}
 
 	regiment = {
-		name= "3.13ème Division d'Infanterie"
+		name= "3.13ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 409
 	}
 
 	regiment = {
-		name= "1.14ème Division d'Infanterie"
+		name= "1.14ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 413
 	}
 
 	regiment = {
-		name= "2.14ème Division d'Infanterie"
+		name= "2.14ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 410
 	}
 
 	regiment = {
-		name= "3.14ème Division d'Infanterie"
+		name= "3.14ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 412
 	}
 
 	regiment = {
-		name= "1.15ème Division d'Infanterie"
+		name= "1.15ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 412
 	}
 
 	regiment = {
-		name= "2.15ème Division d'Infanterie"
+		name= "2.15ï¿½me Division d'Infanterie"
 		type = artillery
 		home = 412
 	}
 
 	regiment = {
-		name= "3.15ème Division d'Infanterie"
+		name= "3.15ï¿½me Division d'Infanterie"
 		type = artillery
 		home = 412
 	}
@@ -451,91 +459,91 @@ army = {
 	name = "VI. Corps" #done
 	location = 458
 	regiment = {
-		name= "1.16ème Division d'Infanterie"
+		name= "1.16ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 458
 	}
 
 	regiment = {
-		name= "2.16ème Division d'Infanterie"
+		name= "2.16ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 459
 	}
 
 	regiment = {
-		name= "3.16ème Division d'Infanterie"
+		name= "3.16ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 460
 	}
 
 	regiment = {
-		name= "1.17ème Division d'Infanterie"
+		name= "1.17ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 444
 	}
 
 	regiment = {
-		name= "2.17ème Division d'Infanterie"
+		name= "2.17ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 442
 	}
 
 	regiment = {
-		name= "3.17ème Division d'Infanterie"
+		name= "3.17ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 456
 	}
 
 	regiment = {
-		name= "1.18ème Division d'Infanterie"
+		name= "1.18ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 455
 	}
 
 	regiment = {
-		name= "2.18ème Division d'Infanterie"
+		name= "2.18ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 447
 	}
 
 	regiment = {
-		name= "3.18ème Division d'Infanterie"
+		name= "3.18ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 446
 	}
 
 	regiment = {
-		name= "1.19ème Division d'Infanterie"
+		name= "1.19ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 457
 	}
 
 	regiment = {
-		name= "2.19ème Division d'Infanterie"
+		name= "2.19ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 462
 	}
 
 	regiment = {
-		name= "3.19ème Division d'Infanterie"
+		name= "3.19ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 461
 	}
 
 	regiment = {
-		name= "1.20ème Division d'Infanterie"
+		name= "1.20ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 449
 	}
 
 	regiment = {
-		name= "2.20ème Division d'Infanterie"
+		name= "2.20ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 448
 	}
 
 	regiment = {
-		name= "3.20ème Division d'Infanterie"
+		name= "3.20ï¿½me Division d'Infanterie"
 		type = engineer
 		home = 430
 	}
@@ -546,73 +554,73 @@ army = {
 	name = "VII. Corps"
 	location = 472
 	regiment = {
-		name= "1.21ème Division d'Infanterie"
+		name= "1.21ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 451
 	}
 
 	regiment = {
-		name= "2.21ème Division d'Infanterie"
+		name= "2.21ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 452
 	}
 
 	regiment = {
-		name= "3.21ème Division d'Infanterie"
+		name= "3.21ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 453
 	}
 
 	regiment = {
-		name= "1.22ème Division d'Infanterie"
+		name= "1.22ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 454
 	}
 
 	regiment = {
-		name= "2.22ème Division d'Infanterie"
+		name= "2.22ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 465
 	}
 
 	regiment = {
-		name= "3.22ème Division d'Infanterie"
+		name= "3.22ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 466
 	}
 
 	regiment = {
-		name= "1.23ème Division d'Infanterie"
+		name= "1.23ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 467
 	}
 
 	regiment = {
-		name= "2.23ème Division d'Infanterie"
+		name= "2.23ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 470
 	}
 
 	regiment = {
-		name= "3.23ème Division d'Infanterie"
+		name= "3.23ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 473
 	}
 
 	regiment = {
-		name= "1.24ème Division d'Infanterie"
+		name= "1.24ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 472
 	}
 
 	regiment = {
-		name= "2.24ème Division d'Infanterie"
+		name= "2.24ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 463
 	}
 
 	regiment = {
-		name= "3.24ème Division d'Infanterie"
+		name= "3.24ï¿½me Division d'Infanterie"
 		type = engineer
 		home = 416
 	}
@@ -624,49 +632,49 @@ army = {
 	name = "Corps de la Garde" #done
 	location = 426
 	regiment = {
-		name= "1.1ère Division de la Garde"
+		name= "1.1ï¿½re Division de la Garde"
 		type = guard
 		home = 425
 	}
 
 	regiment = {
-		name= "2.1ère Division de la Garde"
+		name= "2.1ï¿½re Division de la Garde"
 		type = guard
 		home = 425
 	}
 
 	regiment = {
-		name= "3.1ère Division de la Garde"
+		name= "3.1ï¿½re Division de la Garde"
 		type = guard
 		home = 427
 	}
 
 	regiment = {
-		name= "4.1ère Division de la Garde"
+		name= "4.1ï¿½re Division de la Garde"
 		type = guard
 		home = 426
 	}
 
 	regiment = {
-		name= "1.2ème Division de la Garde"
+		name= "1.2ï¿½me Division de la Garde"
 		type = guard
 		home = 436
 	}
 
 	regiment = {
-		name= "2.2ème Division de la Garde"
+		name= "2.2ï¿½me Division de la Garde"
 		type = guard
 		home = 440
 	}
 
 	regiment = {
-		name= "3.2ème Division de la Garde"
+		name= "3.2ï¿½me Division de la Garde"
 		type = guard
 		home = 438
 	}
 
 	regiment = {
-		name= "4.2ème Division de la Garde"
+		name= "4.2ï¿½me Division de la Garde"
 		type = guard
 		home = 441
 	}
@@ -677,103 +685,103 @@ army = {
 	name = "Corps de Cavalerie" #done
 	location = 425
 	regiment = {
-		name= "1.1ère Division de Cavalerie"
+		name= "1.1ï¿½re Division de Cavalerie"
 		type = dragoon
 		home = 408
 	}
 
 	regiment = {
-		name= "2.1ère Division de Cavalerie"
+		name= "2.1ï¿½re Division de Cavalerie"
 		type = dragoon
 		home = 408
 	}
 
 	regiment = {
-		name= "3.1ère Division de Cavalerie"
+		name= "3.1ï¿½re Division de Cavalerie"
 		type = dragoon
 		home = 408
 	}
 
 	regiment = {
-		name= "4.1ère Division de Cavalerie"
+		name= "4.1ï¿½re Division de Cavalerie"
 		type = dragoon
 		home = 406
 	}
 
 	regiment = {
-		name= "1.2ème Division de Cavalerie"
+		name= "1.2ï¿½me Division de Cavalerie"
 		type = dragoon
 		home = 406
 	}
 
 	regiment = {
-		name= "2.2ème Division de Cavalerie"
+		name= "2.2ï¿½me Division de Cavalerie"
 		type = dragoon
 		home = 406
 	}
 
 	regiment = {
-		name= "3.2ème Division de Cavalerie"
+		name= "3.2ï¿½me Division de Cavalerie"
 		type = dragoon
 		home = 407
 	}
 
 	regiment = {
-		name= "4.2ème Division de Cavalerie"
+		name= "4.2ï¿½me Division de Cavalerie"
 		type = dragoon
 		home = 407
 	}
 
 	regiment = {
-		name= "1.1ère Division Légère de Cavalerie"
+		name= "1.1ï¿½re Division Lï¿½gï¿½re de Cavalerie"
 		type = hussar
 		home = 407
 	}
 
 	regiment = {
-		name= "2.1ère Division Légère de Cavalerie"
+		name= "2.1ï¿½re Division Lï¿½gï¿½re de Cavalerie"
 		type = hussar
 		home = 429
 	}
 
 	regiment = {
-		name= "3.1ère Division Légère de Cavalerie"
+		name= "3.1ï¿½re Division Lï¿½gï¿½re de Cavalerie"
 		type = hussar
 		home = 414
 	}
 
 	regiment = {
-		name= "1.2ème Division Légère de Cavalerie"
+		name= "1.2ï¿½me Division Lï¿½gï¿½re de Cavalerie"
 		type = hussar
 		home = 414
 	}
 
 	regiment = {
-		name= "2.2ème Division Légère de Cavalerie"
+		name= "2.2ï¿½me Division Lï¿½gï¿½re de Cavalerie"
 		type = hussar
 		home = 417
 	}
 
 	regiment = {
-		name= "3.2ème Division Légère de Cavalerie"
+		name= "3.2ï¿½me Division Lï¿½gï¿½re de Cavalerie"
 		type = hussar
 		home = 2570
 	}
 
 	regiment = {
-		name= "1.3ème Division Légère de Cavalerie"
+		name= "1.3ï¿½me Division Lï¿½gï¿½re de Cavalerie"
 		type = hussar
 		home = 402
 	}
 
 	regiment = {
-		name= "2.3ème Division Légère de Cavalerie"
+		name= "2.3ï¿½me Division Lï¿½gï¿½re de Cavalerie"
 		type = hussar
 		home = 402
 	}
 
 	regiment = {
-		name= "3.3ème Division Légère de Cavalerie"
+		name= "3.3ï¿½me Division Lï¿½gï¿½re de Cavalerie"
 		type = hussar
 		home = 402
 	}
@@ -802,19 +810,19 @@ army = {
 	}
 
 	regiment = {
-		name= "1.1ère Division  d'Afrique"
+		name= "1.1ï¿½re Division  d'Afrique"
 		type = infantry
 		home = 1700
 	}
 
 	regiment = {
-		name= "2.1ère Division  d'Afrique"
+		name= "2.1ï¿½re Division  d'Afrique"
 		type = infantry
 		home = 1709
 	}
 
 	regiment = {
-		name= "3.1ère Division  d'Afrique"
+		name= "3.1ï¿½re Division  d'Afrique"
 		type = infantry
 		home = 1705
 	}
@@ -825,37 +833,37 @@ army = {
 	name = "Troupes d'Indochine"
 	location = 1380
 	regiment = {
-		name= "1.11ème Division d'Infanterie"
+		name= "1.11ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 399
 	}
 
 	regiment = {
-		name= "2.11ème Division d'Infanterie"
+		name= "2.11ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 399
 	}
 
 	regiment = {
-		name= "3.11ème Division d'Infanterie"
+		name= "3.11ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 399
 	}
 
 	regiment = {
-		name= "1.12ème Division d'Infanterie"
+		name= "1.12ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 401
 	}
 
 	regiment = {
-		name= "2.12ème Division d'Infanterie"
+		name= "2.12ï¿½me Division d'Infanterie"
 		type = infantry
 		home = 401
 	}
 
 	regiment = {
-		name= "3.12ème Division d'Infanterie"
+		name= "3.12ï¿½me Division d'Infanterie"
 		type = engineer
 		home = 401
 	}
@@ -871,12 +879,12 @@ navy = {
 	}
 	
 	ship = {
-		name = "Renommée"
+		name = "Renommï¿½e"
 		type = commerce_raider
 	}
 
 	ship = {
-		name = "Impératrice Eugénie"
+		name = "Impï¿½ratrice Eugï¿½nie"
 		type = commerce_raider
 	}
 	
@@ -896,7 +904,7 @@ navy = {
 	}
 
 	ship = {
-		name = "Impétueuse"
+		name = "Impï¿½tueuse"
 		type = commerce_raider
 	}
 
@@ -906,7 +914,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Algésiras"
+		name = "Algï¿½siras"
 		type = manowar
 	}
 
@@ -916,7 +924,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Impérial"
+		name = "Impï¿½rial"
 		type = manowar
 	}
 
@@ -973,7 +981,7 @@ navy = {
 }
 
 navy = {
-	name = "Escadre de la Méditerranée"
+	name = "Escadre de la Mï¿½diterranï¿½e"
 	location = 470	
 	ship = {
 		name = "Saint Louis"
@@ -1011,17 +1019,17 @@ navy = {
 	}
 
 	ship = {
-		name = "Guerrière "
+		name = "Guerriï¿½re "
 		type = commerce_raider
 	}
 
 	ship = {
-		name = "Danaé"
+		name = "Danaï¿½"
 		type = commerce_raider
 	}
 	
 	ship = {
-		name = "Zénobie"
+		name = "Zï¿½nobie"
 		type = commerce_raider
 	}
 
@@ -1041,7 +1049,7 @@ navy = {
 	}
 
 	ship = {
-		name = "Pénélope"
+		name = "Pï¿½nï¿½lope"
 		type = frigate
 	}
 	
@@ -1053,7 +1061,7 @@ navy = {
 }
 
 navy = {
-	name = "Flotte de réserve"
+	name = "Flotte de rï¿½serve"
 	location = 418
 	ship = {
 		name = "Souverain"
@@ -1091,7 +1099,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Prince Jérôme"
+		name = "Prince Jï¿½rï¿½me"
 		type = manowar
 	}
 
@@ -1121,7 +1129,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Napoléon"
+		name = "Napolï¿½on"
 		type = manowar
 	}
 
@@ -1131,7 +1139,7 @@ navy = {
 	}
 
 	ship = {
-		name = "Persévérante"
+		name = "Persï¿½vï¿½rante"
 		type = frigate
 	}
 
@@ -1141,12 +1149,12 @@ navy = {
 	}
 
 	ship = {
-		name = "Néreide"
+		name = "Nï¿½reide"
 		type = frigate
 	}
 	
 	ship = {
-		name = "Cléopâtre"
+		name = "Clï¿½opï¿½tre"
 		type = frigate
 	}
 	
@@ -1161,7 +1169,7 @@ navy = {
 	}
 
 	ship = {
-		name = "Némésis"
+		name = "Nï¿½mï¿½sis"
 		type = frigate
 	}
 
@@ -1207,7 +1215,7 @@ navy = {
 	}
 	
 	ship = {
-		name= "Européen"
+		name= "Europï¿½en"
 		type = steam_transport
 	}
 
@@ -1236,7 +1244,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Egérie"
+		name= "Egï¿½rie"
 		type = clipper_transport
 	}
 	
@@ -1253,7 +1261,7 @@ navy = {
 }
 
 navy = {
-	name = "Expédition d'Indochine"
+	name = "Expï¿½dition d'Indochine"
 	location = 1380
 	ship = {
 		name = "Junon"
@@ -1261,7 +1269,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Astrée"
+		name = "Astrï¿½e"
 		type = commerce_raider
 	}
 
@@ -1281,7 +1289,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Héliopolis"
+		name= "Hï¿½liopolis"
 		type = frigate
 	}
 
@@ -1291,7 +1299,7 @@ navy = {
 	}
 	
 	ship = {
-		name= "Algérie"
+		name= "Algï¿½rie"
 		type = frigate
 	}
 	
@@ -1301,7 +1309,7 @@ navy = {
 	}
 
 	ship = {
-		name= "Provençale"
+		name= "Provenï¿½ale"
 		type = clipper_transport
 	}
 
