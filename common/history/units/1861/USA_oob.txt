@@ -1,3 +1,8 @@
+CSA = {
+	value = -100
+	truce_until="1870.5.26"
+}
+
 #Sphere of Influence
 
 JAP = {
