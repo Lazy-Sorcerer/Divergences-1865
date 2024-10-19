@@ -1,0 +1,36 @@
+requested_grant;Requested Grant;;;;;;;;;;;;;x
+requested_grant_desc;We have recently requested a grant and must wait awhile before asking for another one.;;;;;;;;;;;;;x
+EVTNAMEgrantoptions;Grant Options;;;;;;;;;;;;;x
+EVTDESCgrantoptions;In order to give player grants or military supplies, select the enable giving aid option. If you wish to automatically deny grants and military supplies, select the deny giving aid option. If you are asking for a money grant or military supplies, select the type of aid you wish to receive. Note that if you wish to give military supplies to another player, you must manually set your stockpile to buy >500 or >2500 of the good you wish to send, as those are the only two numbers available to request.;;;;;;;;;;;;;x
+EVTNAMEinsufficientmoney;Insufficient Stockpile;;;;;;;;;;;;;x
+EVTDESCinsufficientmoney;We do not have the required stockpile of supplies that we wish to send.;;;;;;;;;;;;;x
+EVTOPTAinsufficientmoney;Ok.;;;;;;;;;;;;;x
+EVTNAMEgivemoney;$FROMCOUNTRY$ Requests a Grant;;;;;;;;;;;;;x
+EVTDESCgivemoney;$FROMCOUNTRY$ has asked us for a grant. Shall we give it to them?;;;;;;;;;;;;;x
+Give_Nothing;Don't give anything.;;;;;;;;;;;;;x
+Give_0.05M_Grant;Give them 50,000.;;;;;;;;;;;;;x
+Give_0.1M_Grant;Give them 100,000.;;;;;;;;;;;;;x
+Give_0.25M_Grant;Give them 250,000.;;;;;;;;;;;;;x
+Give_0.5M_Grant;Give them 500,000.;;;;;;;;;;;;;x
+Give_1M_Grant;Give them 1,000,000.;;;;;;;;;;;;;x
+Give_2M_Grant;Give them 2,000,000.;;;;;;;;;;;;;x
+EVTNAMEgiveartillery;$FROMCOUNTRY$ Requests Artillery;;;;;;;;;;;;;x
+EVTDESCgiveartillery;$FROMCOUNTRY$ has asked us for a shipment of artillery. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Artillery;Give them 200.;;;;;;;;;;;;;x
+Give_600_Artillery;Give them 600.;;;;;;;;;;;;;x
+Give_1800_Artillery;Give them 1800.;;;;;;;;;;;;;x
+EVTNAMEgiveammunition;$FROMCOUNTRY$ Requests Ammunition;;;;;;;;;;;;;x
+EVTDESCgiveammunition;$FROMCOUNTRY$ has asked us for a shipment of ammunition. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Ammunition;Give them 200.;;;;;;;;;;;;;x
+Give_600_Ammunition;Give them 600.;;;;;;;;;;;;;x
+Give_1800_Ammunition;Give them 1800.;;;;;;;;;;;;;x
+EVTNAMEgivesmallarms;$FROMCOUNTRY$ Requests Small Arms;;;;;;;;;;;;;x
+EVTDESCgivesmallarms;$FROMCOUNTRY$ has asked us for a shipment of small arms. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Small_Arms;Give them 200.;;;;;;;;;;;;;x
+Give_600_Small_Arms;Give them 600.;;;;;;;;;;;;;x
+Give_1800_Small_Arms;Give them 1800.;;;;;;;;;;;;;x
+EVTNAMEgivesteamerconvoys;$FROMCOUNTRY$ Requests Steamer Convoys;;;;;;;;;;;;;x
+EVTDESCgivesteamerconvoys;$FROMCOUNTRY$ has asked us for a shipment of steamer convoys. Shall we give it to them?;;;;;;;;;;;;;x
+Give_200_Steamer_Convoys;Give them 200.;;;;;;;;;;;;;x
+Give_600_Steamer_Convoys;Give them 600.;;;;;;;;;;;;;x
+Give_1800_Steamer_Convoys;Give them 1800.;;;;;;;;;;;;;x
