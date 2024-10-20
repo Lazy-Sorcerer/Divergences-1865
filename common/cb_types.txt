@@ -52,7 +52,8 @@ acquire_substate_region
 place_in_the_sun
 colonial_competition
 cut_down_to_size_boxer
-cut_down_to_size 
+cut_down_to_size
+preemptive_strike 
 free_peoples
 liberate_country
 release_puppet
@@ -1714,6 +1715,47 @@ great_war_penalty_cb = {
 	#	NOT = { is_our_vassal = THIS }
 	#	is_disarmed = no
 	#}
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+preemptive_strike = {
+	sprite_index = 8
+	is_triggered_only = yes
+	constructing_cb = no
+	always = yes
+	
+	badboy_factor = 1.3
+	prestige_factor = 1
+	peace_cost_factor = 25
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	po_disarmament = yes
+	po_reparations = yes
+
+	war_name = WAR_NAME
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		is_disarmed = no
+		is_mobilised = yes
+		war = no
+	}
 	
 	on_add = {
 		move_issue_percentage = { 
