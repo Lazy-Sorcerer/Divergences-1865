@@ -10,15 +10,23 @@ private_banks = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
+			factor = 10
+			NOT = { money = 1000 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { money = 10000 }
+		}
+		modifier = {
 			factor = 3.5
 			rank = 16
 		}
 		modifier = {
-			factor = 1.5
+			factor = 4
 			economic_policy = laissez_faire
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 		modifier = {
@@ -41,15 +49,23 @@ stock_exchange = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
+			factor = 10
+			NOT = { money = 1000 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { money = 10000 }
+		}
+		modifier = {
 			factor = 3.5
 			rank = 16
 		}
 		modifier = {
-			factor = 1.25
+			factor = 4
 			economic_policy = laissez_faire
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 		modifier = {
@@ -72,15 +88,23 @@ business_banks = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
+			factor = 10
+			NOT = { money = 1000 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { money = 10000 }
+		}
+		modifier = {
 			factor = 3.5
 			rank = 16
 		}
 		modifier = {
-			factor = 1.25
+			factor = 4
 			economic_policy = laissez_faire
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 		modifier = {
@@ -102,15 +126,23 @@ investment_banks = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
+			factor = 10
+			NOT = { money = 1000 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { money = 10000 }
+		}
+		modifier = {
 			factor = 3.5
 			rank = 16
 		}
 		modifier = {
-			factor = 1.25
+			factor = 4
 			economic_policy = laissez_faire
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 		modifier = {
@@ -132,15 +164,23 @@ bank_inspection_board = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
+			factor = 10
+			NOT = { money = 1000 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { money = 10000 }
+		}
+		modifier = {
 			factor = 1.5
 			rank = 16
 		}
 		modifier = {
-			factor = 1.25
+			factor = 4
 			economic_policy = laissez_faire
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 		modifier = {
@@ -150,7 +190,7 @@ bank_inspection_board = {
 		modifier = {
 			factor = 1.05
 			literacy = 0.6
-		}		
+		}	
 	}
 }
 mutual_funds = {
@@ -162,15 +202,23 @@ mutual_funds = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
+			factor = 10
+			NOT = { money = 1000 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { money = 10000 }
+		}
+		modifier = {
 			factor = 1.5
 			rank = 16
 		}
 		modifier = {
-			factor = 1.25
+			factor = 4
 			economic_policy = laissez_faire
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}
@@ -187,11 +235,19 @@ no_standard = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
+			factor = 10
+			NOT = { money = 1000 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { money = 10000 }
+		}
+		modifier = {
 			factor = 1.1
 			rank = 16
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}
@@ -205,11 +261,23 @@ ad_hoc_money_bill_printing = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
+			factor = 10
+			NOT = { money = 1000 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { money = 10000 }
+		}
+		modifier = {
+			factor = 2 #1.1
+			rank = 16
+		}
+		modifier = {
 			factor = 1.25 #1.1
 			rank = 16
 		}
 		modifier = {
-			factor = 1.25
+			factor = 4
 			economic_policy = laissez_faire
 		}
 		modifier = {
@@ -221,7 +289,7 @@ ad_hoc_money_bill_printing = {
 			literacy = 0.6
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}
@@ -235,7 +303,15 @@ private_bank_money_bill_printing = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
-			factor = 1.25
+			factor = 10
+			NOT = { money = 1000 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { money = 10000 }
+		}
+		modifier = {
+			factor = 4
 			economic_policy = laissez_faire
 		}
 		modifier = {
@@ -243,7 +319,7 @@ private_bank_money_bill_printing = {
 			rank = 16
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}
@@ -257,15 +333,23 @@ central_bank_money_bill_printing = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
+			factor = 10
+			NOT = { money = 1000 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { money = 10000 }
+		}
+		modifier = {
 			factor = 1.1
 			rank = 16
 		}
 		modifier = {
-			factor = 1.25
+			factor = 4
 			economic_policy = laissez_faire
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}
@@ -279,11 +363,19 @@ modern_central_bank_system = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
+			factor = 10
+			NOT = { money = 1000 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { money = 10000 }
+		}
+		modifier = {
 			factor = 1.1
 			rank = 16
 		}
 		modifier = {
-			factor = 1.25
+			factor = 4
 			economic_policy = laissez_faire
 		}
 		modifier = {
@@ -295,7 +387,7 @@ modern_central_bank_system = {
 			literacy = 0.6
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}
@@ -310,7 +402,15 @@ market_determined_exchange_rates = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
-			factor = 1.25
+			factor = 10
+			NOT = { money = 1000 }
+		}
+		modifier = {
+			factor = 5
+			NOT = { money = 10000 }
+		}
+		modifier = {
+			factor = 4
 			economic_policy = laissez_faire
 		}
 		modifier = {
@@ -318,7 +418,7 @@ market_determined_exchange_rates = {
 			rank = 16
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}
@@ -334,9 +434,9 @@ early_classical_theory_and_critique = {
 	activate_building = lumber_mill
 	factory_input = -0.01
 	ai_chance = {
-		factor = 2
+		factor = 1
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 		modifier = {
@@ -354,9 +454,9 @@ late_classical_theory = {
 	year = 1836
 	cost = 7200
 
-	factory_input = -0.01
+	factory_input = -0.03
 	ai_chance = {
-		factor = 1.01
+		factor = 1
 		modifier = {
 			factor = 1.2
 			industrial_score = 20 #10
@@ -374,7 +474,7 @@ late_classical_theory = {
 			literacy = 0.6
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}
@@ -384,9 +484,9 @@ collectivist_theory = {
 	year = 1836
 	cost = 10800
 
-	factory_input = -0.01
+	factory_input = -0.03
 	ai_chance = {
-		factor = 1.01
+		factor = 1
 		modifier = {
 			factor = 1.2
 			industrial_score = 150 #100
@@ -396,7 +496,7 @@ collectivist_theory = {
 			industrial_score = 200 #150
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 		modifier = {
@@ -406,7 +506,7 @@ collectivist_theory = {
 		modifier = {
 			factor = 1.05
 			literacy = 0.6
-		}		
+		}
 	}
 }
 the_historical_theory = {
@@ -414,9 +514,9 @@ the_historical_theory = {
 	year = 1850
 	cost = 14400
 
-	factory_input = -0.01
+	factory_input = -0.03
 	ai_chance = {
-		factor = 1.01
+		factor = 1
 		modifier = {
 			factor = 1.1
 			industrial_score = 250 #200
@@ -426,7 +526,7 @@ the_historical_theory = {
 			industrial_score = 300 #250
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 		modifier = {
@@ -436,7 +536,7 @@ the_historical_theory = {
 		modifier = {
 			factor = 1.05
 			literacy = 0.6
-		}		
+		}	
 	}
 }
 neoclassical_theory = {
@@ -444,7 +544,7 @@ neoclassical_theory = {
 	year = 1870
 	cost = 18000
 
-	factory_input = -0.01
+	factory_input = -0.03
 	ai_chance = {
 		factor = 1
 		modifier = {
@@ -456,7 +556,7 @@ neoclassical_theory = {
 			industrial_score = 600 #500
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 		modifier = {
@@ -474,9 +574,9 @@ keynesian_economics = {
 	year = 1900
 	cost = 21600
 
-	factory_input = -0.01
+	factory_input = -0.03
 	ai_chance = {
-		factor = 1.01
+		factor = 1
 		modifier = {
 			factor = 1.2
 			industrial_score = 1500 #1000
@@ -486,7 +586,7 @@ keynesian_economics = {
 			industrial_score = 2000 #1500
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 		modifier = {
@@ -496,7 +596,7 @@ keynesian_economics = {
 		modifier = {
 			factor = 1.05
 			literacy = 0.6
-		}		
+		}
 	}
 }
 
@@ -515,10 +615,14 @@ freedom_of_trade = {
 	mine_rgo_eff = 0.1
 	
 	ai_chance = {
-		factor = 11
+		factor = 8
 		modifier = {
 			factor = 1.5
 			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { money = 10000 }
 		}
 		modifier = {
 			factor = 1.05
@@ -529,7 +633,7 @@ freedom_of_trade = {
 			literacy = 0.2
 		}		
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}
@@ -550,6 +654,10 @@ market_structure = {
 			is_greater_power = yes
 		}
 		modifier = {
+			factor = 1.1
+			NOT = { money = 10000 }
+		}
+		modifier = {
 			factor = 1.2
 			industrial_score = 10
 		}
@@ -562,7 +670,7 @@ market_structure = {
 			industrial_score = 50
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}	
@@ -583,6 +691,10 @@ business_regulations = {
 			is_greater_power = yes
 		}
 		modifier = {
+			factor = 1.1
+			NOT = { money = 10000 }
+		}
+		modifier = {
 			factor = 1.2
 			industrial_score = 100
 		}
@@ -591,7 +703,7 @@ business_regulations = {
 			industrial_score = 150
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}	
@@ -603,11 +715,18 @@ market_regulations = {
 	cost = 14400
 
 	influence = 0.2
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
+
 	ai_chance = {
 		factor = 1.05
 		modifier = {
 			factor = 1.2
 			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { money = 10000 }
 		}
 		modifier = {
 			factor = 1.2
@@ -618,7 +737,7 @@ market_regulations = {
 			industrial_score = 250
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}	
@@ -645,7 +764,7 @@ economic_responsibility = {
 			industrial_score = 500
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}	
@@ -672,7 +791,7 @@ government_interventionism = {
 			industrial_score = 1500
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}	
@@ -710,7 +829,7 @@ guild_based_production = {
 			literacy = 0.6
 		}		
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}	
@@ -748,7 +867,7 @@ organized_factories = {
 			industrial_score = 150
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}	
@@ -786,7 +905,7 @@ scientific_management = {
 			industrial_score = 250
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}	
@@ -812,7 +931,7 @@ time_saving_measures = {
 			industrial_score = 400
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}	
@@ -838,7 +957,7 @@ management_strategy = {
 			industrial_score = 750
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}	
@@ -864,7 +983,7 @@ organizational_development = {
 			industrial_score = 1500
 		}
 		modifier = {
-			factor = 1.02
+			factor = 1.2
 			tech_school = commerce_tech_school
 		}
 	}	
