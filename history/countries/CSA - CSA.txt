@@ -9,6 +9,8 @@ literacy = 0.50
 civilized = yes
 is_releasable_vassal = no
 
+set_country_flag = segregation_not_abolished
+
 # Technologies
 post_napoleonic_thought = 1
 strategic_mobility = 1
