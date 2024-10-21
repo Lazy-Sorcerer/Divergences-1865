@@ -273,6 +273,21 @@ promote_to =
 				has_country_flag = serfdom_not_abolished
 			}
 		}
+		modifier = {
+			factor = -2
+			AND = {
+				country = { 
+					has_country_flag = segregation_not_abolished 
+				}
+				OR = { 
+					is_culture_group = african_diaspora_cultures
+					is_culture_group = west_african
+					is_culture_group = central_african
+					is_culture_group = east_african
+					is_culture_group = southern_african
+				}
+			}
+		}
 
 		modifier = {
 			factor = -40
