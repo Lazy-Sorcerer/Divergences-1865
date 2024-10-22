@@ -5,6 +5,7 @@ political_decisions = {
 			has_country_flag = segregation_not_abolished
 		}
 		allow = {
+			slavery = no_slavery
 			OR = {
 				AND = {
 					upper_house = {
