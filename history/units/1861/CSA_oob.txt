@@ -3,6 +3,10 @@ USA = {
 	truce_until="1870.5.26"
 }
 
+ENG = {
+	value = 100
+}
+
 leader = {
 	name = "Joseph E. Johnston"
 	type = land

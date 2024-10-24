@@ -1,5 +1,10 @@
 #Sphere of Influence
 
+CSA = {
+	value = 100
+	level = 3
+	influence_value = 25
+}
 EGY = {
 	value = 125		#relation
 	level = 3		#3=cordial, 4 = friendly, 5 sphere
@@ -1198,7 +1203,7 @@ navy = {
 	}
 	
 	ship = {
-		name= "HMS Immortalité"
+		name= "HMS Immortalitï¿½"
 		type = commerce_raider
 	}
 }
@@ -1278,7 +1283,7 @@ navy = {
 	}
 
 	ship = {
-		name= "HMS Impérieuse"
+		name= "HMS Impï¿½rieuse"
 		type = commerce_raider
 	}
 
