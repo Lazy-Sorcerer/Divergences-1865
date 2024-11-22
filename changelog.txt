@@ -1,0 +1,15 @@
+### v1.2
+- adjusted CSA party policies on trade and economy, as a stopgap before a more extensive overhaul 
+
+### v1.1
+- fixed the bug that caused a crash when player attempted to send or receive grants 
+
+### v1
+- added negotiated transfer cb and player grants
+- created a new 1865 bookmark, replacing the old 1861
+- added flavour to CSA based around slavery and racial discrimination
+- made mexico a constitutional a monarchy in the 1865, representing a succesful french intervention
+- nerfed healthcare reforms
+- added a preemptive strike casus belli
+- adjusted ai tech and promotion weights
+- other minor changes concerning 1865 start date
