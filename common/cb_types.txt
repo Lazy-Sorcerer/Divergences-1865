@@ -1731,6 +1731,7 @@ preemptive_strike = {
 	sprite_index = 8
 	is_triggered_only = yes
 	constructing_cb = no
+	months = 0
 	always = yes
 	
 	badboy_factor = 1.3
