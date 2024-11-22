@@ -1801,20 +1801,6 @@ negotiated_transfer = {
 			}
 		}
 		THIS = { ai = no }
-		NOT = {
-			OR = {
-				tag = JAN
-				tag = GHO
-			}
-		}
-		THIS = {
-			NOT = {
-				OR = {
-					tag = JAN
-					tag = GHO
-				}
-			}
-		}
 	}
 	
 	allowed_states = {
