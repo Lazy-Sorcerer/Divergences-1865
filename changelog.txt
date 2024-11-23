@@ -1,4 +1,8 @@
 ### v1.2
+- merged texan culture into dixie
+- gave CSA bunch of cores on states it historically claimed
+
+### v1.2
 - adjusted CSA party policies on trade and economy, as a stopgap before a more extensive overhaul 
 
 ### v1.1
