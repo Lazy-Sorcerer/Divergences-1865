@@ -1,4 +1,4 @@
-### v1.2
+### v1.3
 - merged texan culture into dixie
 - gave CSA bunch of cores on states it historically claimed
 
