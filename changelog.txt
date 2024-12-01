@@ -1,3 +1,6 @@
+### v1.4
+- switched slaves' effect on production from output to throughput (this should massively buff CSA)
+
 ### v1.3
 - merged texan culture into dixie
 - gave CSA bunch of cores on states it historically claimed
