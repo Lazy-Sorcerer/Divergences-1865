@@ -1,5 +1,11 @@
 #Sphere of Influence
 
+CAN = {
+	value = 200
+	level = 5
+	influence_value = 100
+}
+
 CSA = {
 	value = 100
 	level = 3
